@@ -8,7 +8,6 @@ async function bootstrap() {
 
   const logger = new Logger('OrdersMS-Main');
 
-
   const app = await NestFactory.createMicroservice<MicroserviceOptions>(
     AppModule,
     {
